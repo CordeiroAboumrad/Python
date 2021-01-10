@@ -104,8 +104,8 @@ while(count_underscores > 0 and errors < 6):
       #print("Wrong")
       if display[position] == "_":
         display[position] = "_"
-  print(display)
-  print(count_underscores)
+  print(f"{' '.join(display)}")
+  #print(count_underscores)
   if found_letter == 0:
     errors += 1
     if(errors >= 6):
