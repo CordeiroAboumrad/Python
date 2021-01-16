@@ -14,7 +14,7 @@ while(execute == 'y'):
     
     bid_dictionary[name] = bid
 
-    execute = str(input("Do you wish to add a new bid (y/n)?\n"))
+    execute = str(input("Are there any more bidders (y/n)?\n"))
     clear()
 
 biggest = 0
