@@ -24,4 +24,4 @@ for key in bid_dictionary:
     if bid_dictionary[key] > biggest:
         biggest_key = key
 
-print(f"The winner of the silent auction is {biggest_key}, with the bid of {bid_dictionary[biggest_key]}.")
+print(f"The winner of the silent auction is {biggest_key}, with the bid of ${bid_dictionary[biggest_key]}.")
