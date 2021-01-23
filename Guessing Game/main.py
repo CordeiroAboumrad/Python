@@ -7,10 +7,14 @@ from clear import clear
 total_items = len(data)
 continue_game = True
 current_score = 0
+random_A = random_B = 0
+answer = ''
 
 while(continue_game):
-    random_A = random.randint(0,total_items - 1)
-    random_B = random.randint(0,total_items - 1)
+    if(current_score != 0):
+            random_A = random_B
+            random_B = random.randint(0,total_items - 1)
+
 
     while(random_A == random_B):
         random_B = random.randint(0,total_items - 1)
