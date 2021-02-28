@@ -24,4 +24,4 @@ class Scoreboard(Turtle):
     def level_up(self):
         self.level_number += 1
         self.level.clear()
-        self.level.write(f"Level: {self.level_number}")
+        self.level.write(f"Level: {self.level_number}", font=("Courier", 18, "normal"))
