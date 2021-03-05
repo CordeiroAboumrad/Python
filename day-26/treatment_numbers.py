@@ -45,4 +45,4 @@ weather_c = {
 fahrenheit = {day: (celsius * 9 / 5) + 32 for (day, celsius) in weather_c.items()}
 print(fahrenheit)
 
-print(pandas.DataFrame(fahrenheit))
+# print(pandas.DataFrame(fahrenheit))
